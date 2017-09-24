@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <script src="Map.js"></script>
+    </head>
+    <body>
+        <h1> Google Maps </h1>
+        <form>
+            <label>Longitude</label>
+            <input type="text" id="long">
+            <br>
+            <label>Latitude</label>
+            <input type="text" id="lat">
+            <br>
+            <label>Zoom</label>
+            <input type="text" id="zoom">
+            <br>
+            <input type="button" value="locate" onclick="locate()">
+        </form>
+        <div id="googleMap" style="width:100%;height:500px;"></div>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCTDXYyf0yTnMHewlDE_G8aZsCuVFbIDt8&callback=myMap"
+ type="text/javascript">
+        </script>
+    </body>
+</html>
